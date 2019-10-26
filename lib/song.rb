@@ -13,7 +13,7 @@ def self.count
 end
 @@genres = []
 def self.genres
-  @@genres == @@genres.uniq
+  @@genres == @@genres.unique
     return @@genres
 end
 

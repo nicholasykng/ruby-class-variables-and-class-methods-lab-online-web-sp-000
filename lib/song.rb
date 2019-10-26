@@ -13,8 +13,8 @@ def self.count
 end
 @@genres = []
 def self.genres
-  @@genres << @genre unless @@genres.include?(@genre)
-  return @@genres
+  @@genres == @@genres.uniq
+    return @@genres
 end
 
 end

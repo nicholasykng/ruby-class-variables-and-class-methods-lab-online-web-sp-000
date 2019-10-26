@@ -17,6 +17,7 @@ def self.genres
   @@genres = @@genres.uniq
     return @@genres
 end
+@@artists = []
 def self.artists
 
 end
